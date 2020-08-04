@@ -1,1 +1,17 @@
-import { React } from "react";
+import React, {useState} from "react";
+
+const UploadForm = () =>{
+    cosnt[files, setFile] = useState(null); 
+
+    const changeHandler = (e) =>{
+        let selected = e.target.files[0]
+    }
+}
+return (
+    <form>
+        <input type="file" onChange={changeHandler} />
+    </form>
+) 
+
+}
+export default UploadForm;
